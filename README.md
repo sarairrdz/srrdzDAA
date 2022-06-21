@@ -1,19 +1,17 @@
 ## Diseño y Análisis de Algoritmos A22
-### Proyecto 1 - Biblioteca de generación y manejo de grafos
+### Proyecto 2 - Algoritmos BFS y DFS
 #### Alumna : Saraí Roque Rodríguez
 
 #### Objetivo:
-Escribir una biblioteca orientada a objetos, en Python 3.6, para describir y utilizar grafos. Debe, por lo menos contar con una clase llamada Grafo, una clase llamada Nodo y una clase llamada Arista. Asimismo, se deben realizar funciones para generar grafos con los siguientes modelos de generación:
+Utilizando la biblioteca de grafos desarrollada en el proyecto 1, implementar los algoritmos BFS y DFS (recursivo e iterativo) de tal forma que dado un nodo fuente (s), calculen el árbol inducido por los algoritmos mencionados; es decir, desarrollar los métodos en la clase Grafo:
 
-### Modelos de generación de grafos aleatorios
- - Modelo de Malla G(n,m)
- - Modelo de Erdös y Rényi G(n,m) 
- - Modelo de Gilbert G(n,p)
- - Modelo Geográfico simple (n,r)
- - Modelo Barabási-Albert (n,d)
- - Modelo Dorogovtsev-Mendes 
+### Métodos de la clase Grafo
+ - def BFS(self,s)
+ - def_DFS_R(self,s)
+ - def DFS_I(self,s)
 
 ### Contenido
-  - Código: Código de la biblioteca con clases grafo, nodo y arista, así como los algoritmos de generación de grafos
-  - Archivos Gv: Archivos generados por cada modelo (30 nodos, 100 nodos y 500 nodos)
-  - Imágenes: Imágenes creadas de grafos generados utilizando Gephi 
+  - Código fuente
+  - Archivos de grafos generados. Tres por cada generador (con 30, 100 y 500 nodos).
+  - Archivos de grafos calculados. Tres por cada grafo generado (un BFS y dos DFS).
+  - Imágenes de la visualización de cada grafo (generados y calculados).
