@@ -1,16 +1,10 @@
 ## Diseño y Análisis de Algoritmos A22
-### Proyecto 4 - Algoritmos de Kruskal y Prim
+### Proyecto 4 - Disposición de grafos - Parte I
 #### Alumna : Saraí Roque Rodríguez
 
 #### Objetivo:
-Utilizando la biblioteca de grafos desarrollada en el proyecto 1, implementar los algoritmos de Kruskal (directo e inverso) y Prim de tal forma que calculen el árbol de expansión mínima; es decir, desarrollar los métodos en la clase Grafo:
- - def KruskalD(self):
- - def KruskalI(self);
- - def Prim(self):
+Dado un grafo, y utilizando pygame, generar una visualización del mismo. Mediante el método Spring. Calcula la disposición de un grafo mediante el algoritmo de resortes presentado por P. Eades (1984). O(m+n)
  
 ### Contenido
   - Código fuente 
-  - Archivos de grafos generados. Dos por cada generador (uno con "pocos" y otro con "muchos" nodos).
-  - Archivos de grafos calculados.
-  - Imágenes de la visualización de cada grafo (generados y calculados)
-  - Capturas de pantalla donde se muestre el valor del MST
+  -Capturas de pantalla y links a videos con la ejecución del proyecto. Dos por cada modelo de generación, uno con 100 nodos y otro con 500.
