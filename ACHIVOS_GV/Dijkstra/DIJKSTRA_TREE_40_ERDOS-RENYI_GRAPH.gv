@@ -1,0 +1,81 @@
+digraph my_graph {
+0 [label=nodo_0(0.0)]
+36 [label=nodo_36(14.0)]
+10 [label=nodo_10(20.0)]
+1 [label=nodo_1(39.0)]
+30 [label=nodo_30(46.0)]
+2 [label=nodo_2(77.0)]
+38 [label=nodo_38(49.0)]
+3 [label=nodo_3(57.0)]
+28 [label=nodo_28(54.0)]
+4 [label=nodo_4(72.0)]
+5 [label=nodo_5(63.0)]
+21 [label=nodo_21(27.0)]
+16 [label=nodo_16(36.0)]
+6 [label=nodo_6(71.0)]
+7 [label=nodo_7(58.0)]
+8 [label=nodo_8(68.0)]
+9 [label=nodo_9(68.0)]
+11 [label=nodo_11(76.0)]
+39 [label=nodo_39(50.0)]
+12 [label=nodo_12(53.0)]
+13 [label=nodo_13(20.0)]
+14 [label=nodo_14(69.0)]
+15 [label=nodo_15(51.0)]
+17 [label=nodo_17(53.0)]
+18 [label=nodo_18(71.0)]
+24 [label=nodo_24(40.0)]
+19 [label=nodo_19(61.0)]
+20 [label=nodo_20(60.0)]
+22 [label=nodo_22(51.0)]
+23 [label=nodo_23(62.0)]
+25 [label=nodo_25(77.0)]
+26 [label=nodo_26(62.0)]
+31 [label=nodo_31(61.0)]
+27 [label=nodo_27(84.0)]
+29 [label=nodo_29(94.0)]
+32 [label=nodo_32(54.0)]
+33 [label=nodo_33(62.0)]
+34 [label=nodo_34(74.0)]
+35 [label=nodo_35(72.0)]
+37 [label=nodo_37(37.0)]
+0->36
+36->10
+10->1
+10->30
+30->2
+30->38
+38->3
+10->28
+28->4
+38->5
+36->21
+21->16
+16->6
+36->7
+1->8
+38->9
+21->11
+36->39
+39->12
+0->13
+13->14
+10->15
+15->17
+39->18
+0->24
+24->19
+24->20
+24->22
+13->23
+5->25
+39->26
+7->31
+31->27
+20->29
+13->32
+16->33
+28->34
+8->35
+10->37
+}
